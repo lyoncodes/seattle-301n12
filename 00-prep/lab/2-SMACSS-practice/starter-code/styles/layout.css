@@ -30,3 +30,11 @@ h2 {
 .print img {
  margin-right: 3px;
 }
+
+aside {
+ padding-top: 30px;
+ padding-bottom: 60px
+}
+aside img {
+ float: left;
+}
