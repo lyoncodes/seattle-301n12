@@ -1,0 +1,44 @@
+@media screen and (min-width: 400px) {
+}
+@media screen and (min-width: 600px) {
+}
+@media screen and (min-width: 1000px) {
+}
+@media screen and (min-width: 1400px) {
+}
+
+body {
+ color: green;
+ font: 600 14px/24px
+} 
+section,
+aside {
+ background: #2db34a;
+ margin: 1.86%;
+ padding: 20px 0;
+ text-align: center;
+}
+@media all and (min-width: 420px) {
+ .container {
+  background: #eaeaed;
+  max-width: 538px;
+ }
+ section {
+  float: left;
+  width: 63.1970%;
+ }
+ aside {
+  float: right;
+  width: 29.3680%;
+ }
+}
+
+@media all and (max-width: 1024px) {
+}
+
+@media all and (max-width: 420px) {
+ section, aside {
+  float: none;
+  width: auto;
+ }
+}
